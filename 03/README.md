@@ -39,7 +39,7 @@ Picture with three diagonal lines, one in the senter, the others offset by appro
 
         spdiags(1 ./ spdiags(A), 0, size(A, 1), size(A, 1) * A;
 
-&rArr; Code
+&rArr; Code [A7c.m](https://github.com/alshain/eth-numcse/blob/master/03/A7c.m)
 
 8a
 --
@@ -51,3 +51,8 @@ From the [documentation](http://www.mathworks.ch/ch/help/matlab/ref/find.html)
 8b
 --
 &rArr; Code [CCS.m](CCS.m)
+
+9A
+--
+
+&rArr; Code [A9.m](https://github.com/alshain/eth-numcse/blob/master/03/A9.m)

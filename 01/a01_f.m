@@ -6,7 +6,7 @@ for n = ns
   t2 = realmax;
   for k=1:nruns
     tic; arrowmatvec(d,a,x); t = min(toc,t); 
-    tic; a01_d(d,a,x); t2 = min(toc, t2); 
+    tic; arrowmatvec2(d,a,x); t2 = min(toc, t2); 
   end;
   res = [res; t t2];
 end
