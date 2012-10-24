@@ -22,7 +22,9 @@ The code performs a matrix multiplication `O(n^3)` and a matrix-vector multiplic
 
 Replace line *7*:
 
-    y = A*(A*x);
+````matlab
+y = A*(A*x);
+````
 
 **Explanation**: Changes order of evaluation &rArr; two matrix-vector multiplications &rArr; `O(n^2)`
 
@@ -30,3 +32,13 @@ Replace line *7*:
 --
 
 &rArr; Code [arrowmatvec2.m](https://github.com/alshain/eth-numcse/blob/master/01/arrowmatvec2.m)
+
+1e
+--
+
+Complexity: `O(n)`
+
+2
+--
+
+Not yet digitized.
