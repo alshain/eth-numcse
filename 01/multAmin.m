@@ -1,4 +1,4 @@
-function y  = multAmin(x)
+function y = multAmin(x)
     y = zeros(length(x), 1);
     y(1) = sum(x);
     acc = y(1);
