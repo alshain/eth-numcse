@@ -53,8 +53,7 @@ From the [documentation](http://www.mathworks.ch/ch/help/matlab/ref/find.html)
 
 ````matlab
 function [ val, row_ind, col_ptr ] = CCS(A)
-%CCS Summary of this function goes here
-%   Detailed explanation goes here
+% Convert full matrix to CCS representation
     [rs cs vs] = find(A);    
     n = length(rs);
     val = zeros(1, n);
@@ -85,6 +84,31 @@ Complexity analysis
  `O(n^2)` because `find()` has to process each of the *n<sup>2</sup>* elements at least once.
  - *sparse*  
 `O(p)` assuming `find()` runs in `O(p)` for sparse matrices, where `p` denotes the amount of non-zero elements.
+
+
+8d
+--
+
+````matlab
+function [ y ] = mul_CCS( val, row_ind, col_ptr, x )
+% Multiply matrix given in CCS representation by vector x
+    n = max(row_ind);
+    y = zeros(n, 1);
+    
+    n_values = length(val);
+    
+    col = 0;
+    for i=1:n_values
+        row = row_ind(i);
+        if i == col_ptr(col + 1);
+            col = col + 1;
+        end
+        y(row) = y(row) + val(i)*x(col);
+    end
+end
+````
+
+&rArr; File [CCS.m](https://github.com/alshain/eth-numcse/blob/master/03/mul_CCS.m)
 
 9A
 --

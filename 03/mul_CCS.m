@@ -1,6 +1,5 @@
-function [ y ] = mul_CSS( val, row_ind, col_ptr, x )
-%MUL_CSS Summary of this function goes here
-%   Detailed explanation goes here
+function [ y ] = mul_CCS( val, row_ind, col_ptr, x )
+% Multiply matrix given in CCS representation by vector x
     n = max(row_ind);
     y = zeros(n, 1);
     

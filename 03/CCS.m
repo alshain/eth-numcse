@@ -1,6 +1,5 @@
 function [ val, row_ind, col_ptr ] = CCS(A)
-%CCS Summary of this function goes here
-%   Detailed explanation goes here
+% Convert full matrix to CCS representation
     [rs cs vs] = find(A);    
     n = length(rs);
     val = zeros(1, n);
