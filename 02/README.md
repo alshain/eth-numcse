@@ -5,12 +5,12 @@ Exercise 2
 4
 --
 
-Not yet digitized.
+&rArr; [PDF: Scan](https://github.com/alshain/eth-numcse/blob/master/02/4.pdf)
 
 5
 --
 
-Not yet digitized.
+&rArr; [PDF: Scan](https://github.com/alshain/eth-numcse/blob/master/02/5.pdf)
 
 6a
 --
