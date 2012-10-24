@@ -11,14 +11,18 @@ Exercise 7
 
 Executed provided code:
 
-        spy(gallery('poisson', 10))
+````matlab
+spy(gallery('poisson', 10))
+````
 
 Picture with three diagonal lines, one in the senter, the others offset by approximately ~10 units. Dotted lines represent non-zero elements per spy documentation.
 
 7b
 --
 
-    A = diag(1./diag(A))*A;
+````matlab
+A = diag(1./diag(A))*A;
+````
 
 `A` is an *n<sup>2</sup>&times;n<sup>2</sup>* matrix.
 => `diag(·)` creates a non-sparse matrix => complexity *n<sup>4</sup>*.
@@ -36,8 +40,9 @@ Picture with three diagonal lines, one in the senter, the others offset by appro
  - `m`, `n`: The dimensions of the matrix to be created, same as `A`
 
 <!-- break -->
-
-        spdiags(1 ./ spdiags(A), 0, size(A, 1), size(A, 1) * A;
+````matlab
+spdiags(1 ./ spdiags(A), 0, size(A, 1), size(A, 1) * A;
+````
 
 &rArr; Code [A7c.m](https://github.com/alshain/eth-numcse/blob/master/03/A7c.m)
 
