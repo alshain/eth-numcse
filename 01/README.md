@@ -38,7 +38,29 @@ y = A*(A*x);
 
 Complexity: `O(n)`
 
-2
+2a
+--
+Asymptotic complexity
+
+ - `Ax = (I + ?uv')x  
+  `uv'` has complexity `O(n^2)` and results in a matrix, multiplied by `x` is another `O(n^2)` operation.  
+ &rArr; `O(n^2)`
+ - `Ax = x + ?u(v'x)`
+  The dot product `v'x` has complexity `O(n)` and results in a scalar, multiplied by `u` is another `O(n)` operation as is the addition to `x`.  
+ &rArr; `O(n)`
+
+
+2c
 --
 
-Not yet digitized.
+![scan](https://github.com/alshain/eth-numcse/blob/master/01/2c_small.png)
+
+2d
+--
+
+Complexity: `O(n^2)` because of the outer product.
+
+2e
+--
+
+The structure remains the same, because only `?` changes.
