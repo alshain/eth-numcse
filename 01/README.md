@@ -73,4 +73,27 @@ The structure remains the same, because only `Α` changes.
 3b
 --
 
-&rArr; Code [multAmin2.m](https://github.com/alshain/eth-numcse/blob/master/01/multAB.m)
+&rArr; Code [multAmin2.m](https://github.com/alshain/eth-numcse/blob/master/01/multAmin.m)
+
+3c
+--
+
+No solution found without ML.
+
+3f
+--
+
+````matlab
+>> full(spdiags(D, [-1, 0, 1], n, n))
+
+     2    -1     0     0     0     0     0     0     0     0
+    -1     2    -1     0     0     0     0     0     0     0
+     0    -1     2    -1     0     0     0     0     0     0
+     0     0    -1     2    -1     0     0     0     0     0
+     0     0     0    -1     2    -1     0     0     0     0
+     0     0     0     0    -1     2    -1     0     0     0
+     0     0     0     0     0    -1     2    -1     0     0
+     0     0     0     0     0     0    -1     2    -1     0
+     0     0     0     0     0     0     0    -1     2    -1
+     0     0     0     0     0     0     0     0    -1     1
+````
