@@ -84,7 +84,7 @@ Complexity analysis
  - *full*  
  `O(n^2)` because `find()` has to process each of the *n<sup>2</sup>* elements at least once.
  - *sparse*  
-`O(p)` assuming `find()` runs in `O(p)` for sparse matrices, where `p` denots the amount of non-zero elements.
+`O(p)` assuming `find()` runs in `O(p)` for sparse matrices, where `p` denotes the amount of non-zero elements.
 
 9A
 --
