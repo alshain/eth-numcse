@@ -73,7 +73,7 @@ The structure remains the same, because only `Α` changes.
 3b
 --
 
-&rArr; Code [multAmin2.m](https://github.com/alshain/eth-numcse/blob/master/01/multAmin.m)
+&rArr; Code [multAmin.m](https://github.com/alshain/eth-numcse/blob/master/01/multAmin.m)
 
 3c
 --
