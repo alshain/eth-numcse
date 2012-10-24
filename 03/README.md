@@ -108,7 +108,7 @@ function [ y ] = mul_CCS( val, row_ind, col_ptr, x )
 end
 ````
 
-&rArr; File [CCS.m](https://github.com/alshain/eth-numcse/blob/master/03/mul_CCS.m)
+&rArr; File [mul_CCS.m](https://github.com/alshain/eth-numcse/blob/master/03/mul_CCS.m)
 
 9A
 --
