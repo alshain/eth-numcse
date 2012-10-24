@@ -16,7 +16,7 @@ Executed provided code:
 spy(gallery('poisson', 10))
 ````
 
-Picture with three diagonal lines, one in the senter, the others offset by approximately ~10 units. Dotted lines represent non-zero elements per spy documentation.
+Picture with three diagonal lines, one in the center, the others offset by approximately ~10 units. Dotted lines represent non-zero elements per spy documentation.
 
 7b
 --
