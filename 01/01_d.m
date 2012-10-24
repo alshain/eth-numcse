@@ -1,0 +1,1 @@
+function y = a01_d(d, a, x)

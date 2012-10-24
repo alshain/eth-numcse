@@ -1,3 +1,9 @@
+*.asv
+*~
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
 *.aux
 *.bbl
 *.blg
