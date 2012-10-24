@@ -42,7 +42,7 @@ Complexity: `O(n)`
 --
 Asymptotic complexity
 
- - `Ax = (I + αuv')x  
+ - `Ax = (I + αuv')x`
   `uv'` has complexity `O(n^2)` and results in a matrix, multiplied by `x` is another `O(n^2)` operation.  
  &rArr; `O(n^2)`
  - `Ax = x + αu(v'x)`
@@ -53,7 +53,7 @@ Asymptotic complexity
 2c
 --
 
-![scan](https://github.com/alshain/eth-numcse/blob/master/01/2c_small.png)
+![scan](https://raw.github.com/alshain/eth-numcse/master/01/2c_small.png)
 
 2d
 --
@@ -63,4 +63,14 @@ Complexity: `O(n^2)` because of the outer product.
 2e
 --
 
-The structure remains the same, because only `α` changes.
+The structure remains the same, because only `Α` changes.
+
+3a
+--
+
+`ones(n, 1)*1:n` has complexity `O(n^2)`.
+
+3b
+--
+
+&rArr; Code [multAmin2.m](https://github.com/alshain/eth-numcse/blob/master/01/multAB.m)
