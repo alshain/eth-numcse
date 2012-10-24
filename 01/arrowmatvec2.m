@@ -1,4 +1,4 @@
-function y = a01_d(d, a, x)
+function y = arrowmatvec2(d, a, x)
     n = size(x, 1);
     y = zeros(n, 1);
     Ax = y;
