@@ -1,7 +1,8 @@
 
-http://www.mathworks.ch/ch/help/matlab/ref/gallery.html
+From the [documentation](http://www.mathworks.ch/ch/help/matlab/ref/gallery.html)
 
-A = gallery('poisson',n) returns the block tridiagonal (sparse) matrix of order n^2 resulting from discretizing Poisson's equation with the 5-point operator on an n-by-n mesh.
+> `A = gallery('poisson',n)` returns the block tridiagonal (sparse) matrix of order *n<sup>2</sup>*
+ resulting from discretizing Poisson's equation with the 5-point operator on an *n-by-n* mesh.
 
 Exercise 7
 ==========
