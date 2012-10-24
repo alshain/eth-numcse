@@ -50,7 +50,41 @@ From the [documentation](http://www.mathworks.ch/ch/help/matlab/ref/find.html)
 
 8b
 --
-&rArr; Code [CCS.m](CCS.m)
+
+````matlab
+function [ val, row_ind, col_ptr ] = CCS(A)
+%CCS Summary of this function goes here
+%   Detailed explanation goes here
+    [rs cs vs] = find(A);    
+    n = length(rs);
+    val = zeros(1, n);
+    row_ind = zeros(1, n);
+    col_ptr = [];
+
+    last_c = 0;
+    for i=[1:length(rs)]
+        val(i) = vs(i);
+        row_ind(i) = rs(i);
+        if cs(i) ~= last_c
+            col_ptr = [col_ptr i];
+            last_c = cs(i);
+        end 
+    end
+end
+````
+
+&rArr; File [CCS.m](https://github.com/alshain/eth-numcse/blob/master/03/CCS.m)
+
+
+8c
+--
+
+Complexity analysis
+
+ - *full*  
+ `O(n^2)` because `find()` has to process each of the *n<sup>2</sup>* elements at least once.
+ - *sparse*  
+`O(p)` assuming `find()` runs in `O(p)` for sparse matrices, where `p` denots the amount of non-zero elements.
 
 9A
 --
