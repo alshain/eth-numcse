@@ -34,7 +34,7 @@ Exercise 11
 
 11a
 ---
-[![A11a.jpg](https://raw.github.com/alshain/eth-numcse/master/04/A11a_small.jpg)](https://github.com/alshain/eth-numcse/blob/master/04/A11a.jpg)
+[![A11a.jpg](https://raw.github.com/alshain/eth-numcse/master/04/A11a_small.jpg)](https://raw.github.com/alshain/eth-numcse/master/04/A11a.jpg)
 
 11b
 ---
