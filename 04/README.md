@@ -59,7 +59,7 @@ Exercise 12
 
 12a
 ----
-![A12a.jpg](https://github.com/alshain/eth-numcse/blob/master/04/A12a_small.jpg)
+[![A12a.jpg](https://raw.github.com/alshain/eth-numcse/blob/master/04/A12a_small.jpg)](https://github.com/alshain/eth-numcse/blob/master/04/A12a_small.jpg)
 
 ````matlab
 function [A b] = A12a(t, y, lambda)
