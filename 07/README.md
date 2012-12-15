@@ -4,7 +4,7 @@ Problem 19
 19a
 ---
 
-![19a](https://github.com/alshain/eth-numcse/blob/master/07/A19a.jpg)
+[![19a.jpg](https://raw.github.com/alshain/eth-numcse/master/07/A19a_small.jpg)](https://raw.github.com/alshain/eth-numcse/master/07/A19a.jpg)
 
 19b
 ---
@@ -29,7 +29,7 @@ end
 19d
 ----
 
-![A19d.png](https://github.com/alshain/eth-numcse/blob/master/07/A19d.png)
+![A19d.png](https://raw.github.com/alshain/eth-numcse/master/07/A19d.png)
 
 
 
